@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    background-color: rgb(77, 76, 76);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.container{
+    width: 100%;
+}
+
+header img{
+    width: 25px;
+    display: inline;
+    margin-right: 15px;
+}
+
+header li{
+    display: inline;
+    text-align: justify;
+}
+
+header li a{
+    text-decoration: none;
+}
+
+h1{
+    margin-left: 20px;
+    font-family: 'Tilt Warp', cursive;
+    font-style: none;
+}
+
+.logos{
+    margin-right: 10px;
+}
+
+.container article img{
+    width: 500px;
+}
+
+.blog{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h2{
+    padding: 10px;
+    text-decoration: solid;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 25px 0 15px 20px;
+}
+article{
+    display: flex;
+}
+
+.corpo h2{
+    position: sticky;
+}
+
+.noticia{
+    margin: 15px 80px 15px 30px;
+}
+
+section h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+section p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+span{
+    padding: 8px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: small;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+}
+
+.contato{
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+}
+
+.contato h2{
+    margin-left:0px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+.contato form{
+    display: block;
+    align-items:flex-start;
+}
+
+form input, form textarea, form button{
+    display: block;
+    margin-left: 10px;
+    width: 320px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 8px;
+}
+
+footer{
+    padding: 7px;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+form button{
+    padding: 10px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: black;
+}
+
+section.contato{
+    display: flex;
+}
+
+section .adress{
+    width: 500px;
+    margin: 20px 20px 20px 500px;
+}
+
+section .adress p{
+    text-align: left;
+    margin-top: 120px;
+}
+
+section .final{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+section .adress p{
+    margin-top: 80px;
+}
+
+.adress p a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.adress p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: none;
+}
